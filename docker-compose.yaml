@@ -1,0 +1,10 @@
+version: "3"
+
+
+services:
+  backend:
+    build:
+      context: .
+    container_name: "flask_backend"
+    ports:
+      - "8000:8000"
