@@ -1,10 +1,11 @@
-version: "3"
+version: "3.4"
 
 
 services:
-  backend:
+  python:
     build:
       context: .
-    container_name: "flask_backend"
+    container_name: python
+    image: vadushka/python:1.0.0
     ports:
       - "8000:8000"
