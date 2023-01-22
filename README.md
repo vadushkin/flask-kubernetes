@@ -5,6 +5,7 @@ Start
 
 ```
 git clone https://github.com/vadushkin/graphql-apollo-react.git
+cd flask-kubernetes/
 ```
 
 Kubernetes
